@@ -6,6 +6,7 @@
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/signup/signup_part2.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/redux/actionReduser.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/validations/emailPhoneValidations.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
@@ -87,7 +88,7 @@
       <workItem from="1578999099769" duration="6261000" />
       <workItem from="1579009721468" duration="10412000" />
       <workItem from="1579065173926" duration="12198000" />
-      <workItem from="1579077678705" duration="4045000" />
+      <workItem from="1579077678705" duration="4365000" />
     </task>
     <servers />
   </component>
