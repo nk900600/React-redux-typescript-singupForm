@@ -37,9 +37,6 @@ export const UserReducersData =(state:UserFormData[]=[],action:any)=>{
         return action.payload
     }
     return state;
-}
+};
 
 
-export const reducer = combineReducers({
-     UserReducersData
-});

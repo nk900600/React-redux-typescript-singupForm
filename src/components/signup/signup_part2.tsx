@@ -1,7 +1,9 @@
 import React, {Component} from "react";
-import { UserActionsData, UserFormData } from "../../redux/actionReduser";
+import { UserActionsData, UserFormData } from "./actionReduser";
 import { connect } from "react-redux";
 import {isValidEmail, isValidMobile} from "../../validations/emailPhoneValidations";
+import {Link, Route, Switch} from "react-router-dom";
+import Login from "../login/login";
 
 
 interface DispactchProps extends UserFormData{
@@ -29,6 +31,7 @@ class Signup_part2 extends Component<DispactchProps>{
 
 
     SubmitForm = (event: any) => {
+
         event.preventDefault();
         const user= this.state;
         localStorage.setItem("user", JSON.stringify(user));
@@ -43,7 +46,10 @@ class Signup_part2 extends Component<DispactchProps>{
             setTimeout((state:any)=>{
                 console.log(this.props)
             },10);
+        alert("thank you for signing up please click on login link")
+
         }
+
         else {
             alert("form is not filled properly")
         }
@@ -55,7 +61,7 @@ class Signup_part2 extends Component<DispactchProps>{
         return (
             <div className="ui container">
                 <div className="ui segment">
-                    <form className="ui form error" onSubmit={this.SubmitForm}>
+                    <form className="ui form error" onSubmit={this.SubmitForm} >
                         <div className="field">
                             <label> First Name </label>
                             <input required type="text" value={this.state.firstname}
@@ -73,9 +79,23 @@ class Signup_part2 extends Component<DispactchProps>{
                             {!email.isValid && this.state.email  ? <div className="ui error message">
                                 <div className="ui tiny header">{email.errorMessage}</div></div> :<div></div>}
                         </div>
-                        <button className="ui button primary" >submit</button>
+                        <br/>
+                        {/*<div className="ui checkbox">*/}
+                        {/*    <input type="checkbox"/>*/}
+                        {/*    <label>I agree to the Terms and Conditions</label>*/}
+                        {/*</div>*/}
 
+                        {/*<br/>*/}
+                        {/*<br/>*/}
+
+                        <button className="ui button primary" >submit</button>
                     </form>
+                    <br/>
+
+                    <div>
+                        <Link to="/login">Login</Link>
+
+                    </div>
 
                 </div>
             </div>
