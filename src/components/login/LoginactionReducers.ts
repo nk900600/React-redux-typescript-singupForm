@@ -1,23 +1,16 @@
 
 
 export interface LoginForm {
-
     username: string,
     password: string,
-
 }
 
 
 export const LoginActionData =(login : LoginForm)=>{
-
-
     return{
-
         type : "USER_LOGIN",
         payload: login
     }
-
-
 };
 
 

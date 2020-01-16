@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, {Component,} from "react";
 import {LoginForm, LoginActionData} from "./LoginactionReducers";
 import {connect} from "react-redux";
 import {BrowserRouter, Link, Route, Switch} from "react-router-dom";
@@ -8,62 +8,43 @@ import Signup_part2 from "../signup/signup_part2";
 import {TokenEncode} from '../../validations/jwtTokens'
 
 export interface DispactchProps  extends LoginForm {
-    LoginActionData : typeof LoginActionData
+    LoginActionData : typeof LoginActionData,
+    history: any
 }
 
 
-
 class Login extends Component<DispactchProps>{
-    state={
-        username: "",
-        password :"",
+    state ={
+        username : "",
+        password : "",
     };
 
     componentDidMount(): void {
-        let admins = require('./user.json');
-        // this.props.LoginActionData(this.state);
-        // console.log(this.state)
-        console.log(admins[0]);
-
         this.props.LoginActionData(this.state);
-
-        let jwt= require('jsonwebtoken');
-        var token =jwt.sign({data:this.state},"nikhil",
-            { expiresIn: 3600 }); //time in seconds or  '1h'
-
-        console.log(token);
-        var decode =jwt.verify(token,"nikhil");
-        console.log(decode.data.username)
     }
-    //
-    // Token=()=>{
-    //
-    //     let jwt= require('jsonwebtoken');
-    //
-    // }
 
-    SubmitLoginForm=(event:any)=>{
-        event.preventDefault();
+    SubmitLoginForm=()=>{
         let admins = require('./user.json');
-        console.log(this.state);
-        if (admins[0].username===this.state.username && admins[0].password===this.state.password){
+        if (admins[0].username===this.state.username && admins[0].password===this.state.password) {
             this.props.LoginActionData(this.state);
             const token = TokenEncode(this.state);
-            localStorage.setItem("token",token);
-
+            localStorage.setItem("token", token);
+            this.props.history.push("/")
         }
         else{
             alert("invaild user ")
         }
-
-        // console.log(this.state)
-        // console.log(admins[0].username);
-
     };
-
 
     render() {
         return (
+
+            <div>
+
+                <h1> username : admin , password : admin</h1>
+
+
+
             <div className="ui container">
                 <div  className="ui segment">
 
@@ -83,24 +64,27 @@ class Login extends Component<DispactchProps>{
                     </div>
                 </div>
                 <button className="ui button" type="submit">Submit</button>
-
-
+                    <br/>
+                    <br/>
                     <div>
                         <Link to="/signup">signup</Link>
                         </div>
-
             </form>
-
+                </div>
                 </div>
                 </div>
         );
+
     }
 }
 
 
 const mapStateToProps=(state:LoginForm)=>{
-    return state
-
+    return{
+        state
+    }
 };
+
+
 
 export default connect(mapStateToProps,{LoginActionData})(Login)

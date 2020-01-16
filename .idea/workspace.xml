@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f27e549-e460-4257-9f80-5e3914710a92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/login/LoginactionReducers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/login/login.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/login/user.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/rootReducers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/validations/jwtTokens.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dashboard/dashboard.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/signup/signup_part2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/signup/signup_part2.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actionReduser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/signup/actionReduser.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/login/login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/login.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/validations/jwtTokens.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/validations/jwtTokens.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +16,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -43,6 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/maui" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -95,7 +89,9 @@
       <workItem from="1578999099769" duration="6261000" />
       <workItem from="1579009721468" duration="10412000" />
       <workItem from="1579065173926" duration="12198000" />
-      <workItem from="1579077678705" duration="16313000" />
+      <workItem from="1579077678705" duration="16572000" />
+      <workItem from="1579149015040" duration="11882000" />
+      <workItem from="1579163563776" duration="7884000" />
     </task>
     <servers />
   </component>
@@ -107,6 +103,22 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="200" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1579098518271" />
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1579167781019">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1579167781019" />
+    <state x="0" y="27" width="869" height="741" key="find.popup" timestamp="1579151633415">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="0" y="27" width="869" height="741" key="find.popup/67.27.1299.741@67.27.1299.741" timestamp="1579151633415" />
+    <state x="209" y="27" width="501" height="738" key="refactoring.ChangeSignatureDialog" timestamp="1579170585601">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="209" y="27" width="501" height="738" key="refactoring.ChangeSignatureDialog/67.27.1299.741@67.27.1299.741" timestamp="1579170585601" />
+    <state x="129" y="175" key="run.anything.popup" timestamp="1579169814773">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="129" y="175" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1579169814773" />
     <state x="55" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1579011753864">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
