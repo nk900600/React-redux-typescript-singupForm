@@ -2,22 +2,70 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f27e549-e460-4257-9f80-5e3914710a92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/dashboard/dashboard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/main_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vayana-partner-with-us.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vayana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/confirmactionsreducers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/des.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/designX.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/dropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/forgetpassword.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/forgotpasswordactionreducers.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/main_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/otp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/res.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/responsive.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/sem.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/semantic-res.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/swoosh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/seamantic-homepage/homepage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sidebar/header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sidebar/side-tag.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/sidebar/vayana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/signinproject/confirmpassword.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/signinproject/forgotpassword.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/signinproject/mainpage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/signinproject/otpforpassword.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/signinproject/signup.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/signinproject/signupotp.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login/login.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/login/login.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/validations/jwtTokens.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/validations/jwtTokens.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dashboard/dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/dashboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/signup/actionReduser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/signup/actionReduser.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/rootReducers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/rootReducers.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
+        <option value="CSS File" />
         <option value="TypeScript JSX File" />
       </list>
     </option>
@@ -32,11 +80,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/maui" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -45,12 +95,22 @@
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/components/sidebar" />
+      <recent name="$PROJECT_DIR$/src/components/forgorpassword" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/dashboard" />
+      <recent name="$PROJECT_DIR$/src/components/sidebar" />
       <recent name="$PROJECT_DIR$/src/components/signup" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="JavaScript Debug.responsive.html">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="responsive.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/signup-ts/src/components/forgorpassword/responsive.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -91,7 +151,68 @@
       <workItem from="1579065173926" duration="12198000" />
       <workItem from="1579077678705" duration="16572000" />
       <workItem from="1579149015040" duration="11882000" />
-      <workItem from="1579163563776" duration="7884000" />
+      <workItem from="1579163563776" duration="9118000" />
+      <workItem from="1579173479485" duration="449000" />
+      <workItem from="1579177820016" duration="2635000" />
+      <workItem from="1579238623339" duration="22977000" />
+      <workItem from="1579417264367" duration="14351000" />
+      <workItem from="1579510340503" duration="3609000" />
+      <workItem from="1579522866366" duration="3467000" />
+      <workItem from="1579537462001" duration="2702000" />
+      <workItem from="1579610750263" duration="995000" />
+      <workItem from="1579620200289" duration="1171000" />
+      <workItem from="1579628454404" duration="2357000" />
+      <workItem from="1579682702301" duration="1254000" />
+      <workItem from="1579691612976" duration="610000" />
+      <workItem from="1579692301481" duration="3611000" />
+      <workItem from="1579708556930" duration="9582000" />
+      <workItem from="1579756905052" duration="5214000" />
+      <workItem from="1579763958638" duration="10237000" />
+      <workItem from="1579779054628" duration="609000" />
+      <workItem from="1579779857342" duration="960000" />
+      <workItem from="1579785321788" duration="632000" />
+      <workItem from="1579786533864" duration="3885000" />
+      <workItem from="1579842187829" duration="29102000" />
+      <workItem from="1579935649298" duration="12299000" />
+      <workItem from="1580017710509" duration="7031000" />
+      <workItem from="1580099340383" duration="6598000" />
+      <workItem from="1580110663769" duration="747000" />
+      <workItem from="1580117723923" duration="10314000" />
+      <workItem from="1580186323408" duration="3959000" />
+      <workItem from="1580273285558" duration="4797000" />
+      <workItem from="1580297819800" duration="9771000" />
+      <workItem from="1580358449501" duration="6201000" />
+      <workItem from="1580367014602" duration="7623000" />
+      <workItem from="1580376951058" duration="6098000" />
+      <workItem from="1580446088359" duration="966000" />
+      <workItem from="1580447273789" duration="1520000" />
+      <workItem from="1580450382346" duration="6946000" />
+      <workItem from="1580460891650" duration="6660000" />
+      <workItem from="1580543393574" duration="7657000" />
+      <workItem from="1580642386379" duration="872000" />
+      <workItem from="1580644091100" duration="7240000" />
+      <workItem from="1580716066543" duration="3413000" />
+      <workItem from="1580791501434" duration="1363000" />
+      <workItem from="1580816511432" duration="472000" />
+      <workItem from="1580898440007" duration="988000" />
+      <workItem from="1580903759835" duration="5294000" />
+      <workItem from="1580910853397" duration="600000" />
+      <workItem from="1580962488585" duration="756000" />
+      <workItem from="1580974231534" duration="5648000" />
+      <workItem from="1581054715807" duration="15375000" />
+      <workItem from="1581072969622" duration="2264000" />
+      <workItem from="1581075751043" duration="1795000" />
+      <workItem from="1581077563804" duration="1069000" />
+      <workItem from="1581079825278" duration="1796000" />
+      <workItem from="1581081644117" duration="1795000" />
+      <workItem from="1581083470191" duration="1673000" />
+      <workItem from="1581085283677" duration="340000" />
+      <workItem from="1581136992626" duration="1603000" />
+      <workItem from="1581138809893" duration="1496000" />
+      <workItem from="1581140629311" duration="1502000" />
+      <workItem from="1581142439215" duration="1888000" />
+      <workItem from="1581144344549" duration="1754000" />
+      <workItem from="1581146183342" duration="1793000" />
     </task>
     <servers />
   </component>
@@ -99,29 +220,78 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="67" y="59" width="800" height="677" key="#Web_Browsers" timestamp="1579682739932">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="67" y="59" width="800" height="677" key="#Web_Browsers/67.27.1299.741@67.27.1299.741" timestamp="1579682739932" />
+    <state x="85" y="201" width="603" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580372675530">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="85" y="201" width="603" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1580372675530" />
     <state x="200" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser" timestamp="1579098518271">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="200" y="115" width="374" height="562" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1579098518271" />
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1579167781019">
+    <state x="125" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580145001433">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1579167781019" />
-    <state x="0" y="27" width="869" height="741" key="find.popup" timestamp="1579151633415">
+    <state x="125" y="145" width="524" height="502" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/67.27.1299.741@67.27.1299.741" timestamp="1580145001433" />
+    <state x="142" y="71" width="489" height="651" key="#responsive.html" timestamp="1579691676783">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="0" y="27" width="869" height="741" key="find.popup/67.27.1299.741@67.27.1299.741" timestamp="1579151633415" />
+    <state x="142" y="71" width="489" height="651" key="#responsive.html/67.27.1299.741@67.27.1299.741" timestamp="1579691676783" />
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1579697443805">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1579697443805" />
+    <state x="302" y="95" width="819" height="602" key="NewModule_or_Project.wizard" timestamp="1579697408782">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="302" y="95" width="819" height="602" key="NewModule_or_Project.wizard/67.27.1299.741@67.27.1299.741" timestamp="1579697408782" />
+    <state x="67" y="27" width="869" height="741" key="find.popup" timestamp="1579173532659">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="67" y="27" width="869" height="741" key="find.popup/67.27.1299.741@67.27.1299.741" timestamp="1579173532659" />
     <state x="209" y="27" width="501" height="738" key="refactoring.ChangeSignatureDialog" timestamp="1579170585601">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="209" y="27" width="501" height="738" key="refactoring.ChangeSignatureDialog/67.27.1299.741@67.27.1299.741" timestamp="1579170585601" />
-    <state x="129" y="175" key="run.anything.popup" timestamp="1579169814773">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="92" y="237" key="run.anything.popup" timestamp="1581138015254">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="129" y="175" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1579169814773" />
-    <state x="55" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1579011753864">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="157" y="237" width="672" height="677" key="run.anything.popup/0.27.3286.1053@0.27.3286.1053" timestamp="1581053988844" />
+    <state x="92" y="237" key="run.anything.popup/1920.0.1366.768/0.27.1920.1053@0.27.1920.1053" timestamp="1581138015254" />
+    <state x="129" y="175" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1580459839818" />
+    <state x="-18" y="115" width="994" height="964" key="search.everywhere.popup" timestamp="1581079960522">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="55" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1579011753864" />
+    <state x="-18" y="115" width="994" height="964" key="search.everywhere.popup/1920.0.1366.768/0.27.1920.1053@0.27.1920.1053" timestamp="1581079960522" />
+    <state x="55" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1580124671690" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts</url>
+          <line>2997</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/forgorpassword/semantic-res.tsx</url>
+          <line>124</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/sidebar/icon-based-sidebar.tsx</url>
+          <line>27</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/signinproject/signup.tsx</url>
+          <line>45</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

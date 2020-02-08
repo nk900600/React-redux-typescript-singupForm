@@ -1,0 +1,54 @@
+#partitioned {
+    padding-left: 15px;
+    letter-spacing: 42px;
+    border:0;
+    background-image: linear-gradient(to left, black 70%, rgba(255, 255, 255, 0) 0%);
+    background-position: bottom;
+    background-size: 50px 1px;
+    background-repeat: repeat-x;
+    background-position-x: 35px;
+    width: 220px;
+    min-width: 220px;
+}
+
+
+/*input[type=number] {*/
+/*    height: 45px;*/
+/*    width: 45px;*/
+/*    font-size: 25px;*/
+/*    text-align: center;*/
+/*    border: 1px solid #000000;*/
+/*}*/
+
+
+.orgText{
+
+    resize: none !important;
+    width: 100% !important;
+}
+
+
+.codeBox4 {
+
+    width: 6.666% !important;
+    height: 45px;
+    padding: 0 !important;
+    border-radius:0 !important ;
+    text-transform: uppercase;
+    /*font-size: 25px;*/
+    text-align: center;
+
+    /*border: 1px solid #000000;*/
+    /*padding: 10%;*/
+}
+
+
+/*#id{*/
+/*    width: 6.666%;*/
+/*    height: 45px;*/
+/*    padding: 0;*/
+/*    border-radius:0;*/
+/*    text-transform: uppercase;*/
+/*    !*font-size: 25px;*!*/
+/*    text-align: center;*/
+/*}*/
