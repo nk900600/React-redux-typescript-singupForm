@@ -10,8 +10,9 @@ import Button from "semantic-ui-react/dist/commonjs/elements/Button/Button";
 import TextField from "@material-ui/core/TextField";
 import Input from "semantic-ui-react/dist/commonjs/elements/Input/Input";
 // import {Form} from "semantic-ui-react";
-import './dashboard.css'
+// import './dashboard.css'
 import {Dropdown, Modal, Header, TextArea} from "semantic-ui-react";
+import { partionInput } from "./utils";
 interface Mobile {
     mobile:boolean
 }
@@ -29,106 +30,80 @@ export class Dashboard extends Component<any,any>{
         tinnumber:[],
         trigger:false,
         country:"",
-    }
+    };
 
 
     componentDidMount(): any {
-        document.body.style.backgroundImage = "url(vayana.png)";
-        this.setState({
-            trigger:true
-        })
-        // return(
-        //
-        //     <Modal trigger={<Button>Show Modal</Button>}>
-        //         <Modal.Header>Select a Photo</Modal.Header>
-        //         <Modal.Content image>
-        //             {/*<Image wrapped size='medium' src='https://react.semantic-ui.com/images/avatar/large/rachel.png' />*/}
-        //             <Modal.Description>
-        //                 <Header>Default Profile Image</Header>
-        //                 <p>
-        //                     We've found the following gravatar image associated with your e-mail
-        //                     address.
-        //                 </p>
-        //                 <p>Is it okay to use this photo?</p>
-        //             </Modal.Description>
-        //         </Modal.Content>
-        //     </Modal>
-        // )
-
+        // document.body.style.backgroundImage = "url(vayana.png)";
+        // this.setState({
+        //     trigger:true
+        // })
     }
 
 
-    GSTNnumber=(e:any)=>{
+     GSTNnumber= async (e:any)=>{
 
         const v= e.target.id;
         const index=parseInt(v,10);
         const gstnnumberFocus=document.getElementById(`${index+1}gstnindex`);
         const gstnvalue= e.currentTarget.value;
-
-        setTimeout(()=>{
-            this.setState({
-                gstnnumber: [...this.state.gstnnumber,gstnvalue]
-            })
-        },10);
-
-        if (e.target.value.length === e.target.maxLength &&  gstnnumberFocus !==null ) {
-            // @ts-ignore
-            gstnnumberFocus.focus()
-        }
-
+         if (gstnvalue.length === e.target.maxLength &&  gstnnumberFocus !==null ) {
+             // @ts-ignore
+             gstnnumberFocus.focus()
+         }
+        await this.setState({
+                    gstnnumber: [...this.state.gstnnumber,gstnvalue]
+                })
     }
 
-    PANnumber=(e:any)=>{
+    PANnumber=async (e:any)=>{
         const v= e.target.id;
         const index=parseInt(v,10);
         const pannumberFocus=document.getElementById(`${index+1}panindex`);
         const panvalue= e.currentTarget.value;
-
-
-        setTimeout(()=>{
-            this.setState({
-                pannumber: [...this.state.pannumber,panvalue]
-            })
-        },10);
-
         if (e.target.value.length === e.target.maxLength &&  pannumberFocus !==null ) {
             // @ts-ignore
             pannumberFocus.focus()
         }
+        await this.setState({
+                pannumber: [...this.state.pannumber,panvalue]
+            })
+
+
     };
 
 
-    PINnumber=(e:any)=>{
+    PINnumber= async (e:any)=>{
         const v= e.target.id;
         const index=parseInt(v,10);
         const pinnumberFocus=document.getElementById(`${index+1}pinindex`);
         const pinvalue= e.currentTarget.value;
-        setTimeout(()=>{
-            this.setState({
-                pannumber: [...this.state.pinnumber,pinvalue]
-            })
-        },10);
-
         if (e.target.value.length === e.target.maxLength &&  pinnumberFocus !==null ) {
             // @ts-ignore
             pinnumberFocus.focus()
         }
+
+        await this.setState({
+                pannumber: [...this.state.pinnumber,pinvalue]
+            })
+
+
+
     };
 
-    TINnumber=(e:any)=>{
+    TINnumber= async (e:any)=>{
         const v= e.target.id;
         const index=parseInt(v,10);
         const tinnumberFocus=document.getElementById(`${index+1}tinindex`);
         const tinvalue= e.currentTarget.value;
-        setTimeout(()=>{
-            this.setState({
-                pannumber: [...this.state.tinnumber,tinvalue]
-            })
-        },10);
         if (e.target.value.length === e.target.maxLength &&  tinnumberFocus !==null ) {
             // @ts-ignore
             pinnumberFocus.focus()
         }
+        await this.setState({
+                pannumber: [...this.state.tinnumber,tinvalue]
+            })
+
     };
 
 
@@ -146,56 +121,84 @@ export class Dashboard extends Component<any,any>{
 
     }
 
+    gstChange=(e:any)=>{
+        const v= e.target.id;
+        const num=parseInt(v,10);
+        const gstnnumberFocus=document.getElementById(`${num-1}gstnindex`);
+        const key= e.keyCode;
+        if (key===8){
+            var array = [...this.state.gstnnumber]; // make a separate copy of the array
+            // @ts-ignore
+            var index = array.indexOf(e.currentTarget.value);
+            var index1 = (e.currentTarget.value);
+            if (index !== -1) {
+                array.splice(index, 1);
+                this.setState({gstnnumber: array});
+            }
+            if (index1.length === 0 && gstnnumberFocus !==null){
+                // @ts-ignore
+                gstnnumberFocus.focus()
+            }
+        }
+    };
+
+    panChange=(e:any)=>{
+
+        const v= e.target.id;
+        const num=parseInt(v,10);
+        const pannumberFocus=document.getElementById(`${num-1}panindex`);
+        const key= e.keyCode;
+        if (key===8){
+            var array = [...this.state.pannumber]; // make a separate copy of the array
+            // @ts-ignore
+            var index = array.indexOf(e.currentTarget.value)
+            var index1 = (e.currentTarget.value)
+            if (index !== -1) {
+                array.splice(index, 1);
+                this.setState({pannumber: array});
+            }
+            if (index1.length === 0 && pannumberFocus !==null){
+                // @ts-ignore
+                pannumberFocus.focus()
+            }
+        }
+    }
+
+
+    pinChange=(e:any)=>{
+
+        const v= e.target.id;
+        const num=parseInt(v,10);
+        const pinnumberFocus=document.getElementById(`${num-1}pinindex`);
+        const key= e.keyCode;
+        if (key===8){
+            var array = [...this.state.pinnumber]; // make a separate copy of the array
+            // @ts-ignore
+            var index = array.indexOf(e.currentTarget.value)
+            var index1 = (e.currentTarget.value)
+            if (index !== -1) {
+                array.splice(index, 1);
+                this.setState({pinnumber: array});
+            }
+            if (index1.length === 0 && pinnumberFocus !==null){
+                // @ts-ignore
+                pinnumberFocus.focus()
+            }
+        }
+    }
+
 
 
     render() {
 
-
-        var gstinLength = [];
-        for (var i = 0; i < 15; i++) {
-            gstinLength.push(<input
-                                className="codeBox4"
-                                id={`${i}gstnindex`}
-                                maxLength={1}
-                                onChange={this.GSTNnumber}
-                                />);
-        }
-        var panNumber = [];
-        for (var i = 0; i < 10; i++) {
-            panNumber.push(<input
-                                className="codeBox4"
-                                id={`${i}panindex`}
-                                maxLength={1}
-                                onChange={this.PANnumber}
-            />);
-        }
-
-
-        var PINnumber = [];
-        for (var i = 0; i < 6; i++) {
-            PINnumber.push(<input
-                                className="codeBox4"
-                                id={`${i}pinindex`}
-                                maxLength={1}
-                                onChange={this.PINnumber}
-            />);
-        }
-
-
-        // var TINnumber = [];
-        // for (var i = 0; i < 6; i++) {
-        //     PINnumber.push(<input
-        //         className="codeBox4"
-        //         id={`${i}tinindex`}
-        //         maxLength={1}
-        //         onChange={this.TINnumber}
-        //     />);
-        // }
+        var gstinLength =partionInput("Gstncss",15,"gstnindex",this.GSTNnumber,this.gstChange);
+        var panNumber =partionInput("Pancss",10,"panindex",this.PANnumber,this.panChange);
+        var PINnumber =partionInput("Pincss",6,"pinindex",this.PINnumber,this.pinChange);
         const countryOptions=[
             { key: 'ind', value: 'ind', flag: 'in', text: 'India' },
             { key: 'usa', value: 'usa', flag: 'us', text: 'USA' },
 
-        ]
+        ];
 
         return (
 
@@ -207,13 +210,12 @@ export class Dashboard extends Component<any,any>{
                 // textAlign:"center"
             }}>
                 {/**/}
-                <Grid padded centered>
-                    <Grid.Column widescreen={7} computer={9} mobile={16} tablet={14} style={{paddingTop:"5%"}} >
-                        {/*style={{paddingRight:this.props.mobile?"10%":"",paddingTop:"5%"}}>*/}
-                         <Segment style={{padding:"4em",textAlign:"center"}}>
+                <Grid padded centered  style={{background:"#DDE1E5"}}>
+                    <Grid.Column widescreen={14} computer={15} mobile={16} tablet={15} style={{paddingTop:"2%",minWidth:"420px" }} >
+                         <Segment style={{padding:"3em",textAlign:"center"}}>
                             <div >
                                 <div style={{fontSize:"2.5em",fontStyle:"bold",textAlign:"center",paddingBottom:"0.4em"}}>
-                                    Add an organization
+                                    Add organization
                                 </div>
                                 <div style={{fontSize:"1em",fontStyle:"bold",textAlign:"center"}}>
                                     Minimum one organization is required
@@ -222,24 +224,17 @@ export class Dashboard extends Component<any,any>{
                             </div>
                             <br/>
 
-
                             <Form style={{textAlign:"left",paddingBottom:"2em",paddingTop:"2em"}}>
-
-
-
-
-
-                                {/*<Form.Input required  label='Organisation Name' placeholder='Organisation Name'      />*/}
-                                {/*</Form.Group>*/}
-
-
+                                <div style={{fontWeight:"bold",paddingBottom:"4px",paddingTop:"4px"}}>
+                                    PAN
+                                </div>
+                            <div style={{paddingBottom:"10px"}}>
+                                {panNumber}
+                            </div>
                                 <Form.Group widths='equal'>
                                     <Form.Input required fluid label='Organisation Name' placeholder='Organisation Name'      />
                                     <Form.Input fluid label='Constitution' placeholder='Constitution' />
-                                    {/*<Form.Dropdown  search selection options={countryOptions} onChange={this.handleChange}></Form.Dropdown>*/}
                                 </Form.Group>
-
-
                                     <div style={{fontWeight:"bold",paddingBottom:"4px",paddingTop:"4px"}}>
                                         GSTIN
                                     </div>
@@ -247,29 +242,20 @@ export class Dashboard extends Component<any,any>{
                                     {gstinLength}
                                 </form>
 
-                                {this.state.country==="ind"?
-                                    <div>
 
-                                            <div style={{fontWeight:"bold",paddingBottom:"4px",paddingTop:"4px"}}>
-                                                PAN
-                                            </div>
 
-                                            <Form style={{float:"right",paddingBottom:"10px"}}>
-                                                {panNumber}
-                                            </Form>
-                                    </div>:""}
 
-                                {this.state.country==="usa"?
-                                    <div>
+                                {/*{this.state.country==="usa"?*/}
+                                {/*    <div>*/}
 
-                                        <div style={{fontWeight:"bold",paddingBottom:"4px",paddingTop:"4px"}}>
-                                            TIN
-                                        </div>
+                                {/*        <div style={{fontWeight:"bold",paddingBottom:"4px",paddingTop:"4px"}}>*/}
+                                {/*            TIN*/}
+                                {/*        </div>*/}
 
-                                        <Form style={{float:"right",paddingBottom:"10px"}}>
-                                            {panNumber}
-                                        </Form>
-                                    </div>:""}
+                                {/*        <Form style={{float:"right",paddingBottom:"10px"}}>*/}
+                                {/*            {panNumber}*/}
+                                {/*        </Form>*/}
+                                {/*    </div>:""}*/}
 
 
                                 <div style={{fontWeight:"bold",paddingBottom:"4px",paddingTop:"4px"}}>
@@ -281,7 +267,7 @@ export class Dashboard extends Component<any,any>{
 
 
                                 <div style={{fontWeight:"bold",paddingBottom:"6px",paddingTop:"6px"}}>
-                                    PIN
+                                    Pin code
                                 </div>
 
                                 <Form style={{paddingBottom:"10px"}}>
@@ -296,25 +282,18 @@ export class Dashboard extends Component<any,any>{
                                 </Form.Group>
 
 
-                                <Grid.Column computer={9} mobile={16} tablet={14} style={{paddingTop:"5%"}} >
-                                <Modal open={this.state.trigger} style={{width:"30%" }}>
-                                    <Modal.Header style={{textAlign:"center"}}>Choose a country</Modal.Header>
+                                <Modal  centered basic size="mini" open={this.state.trigger} >
+                                    <Modal.Header style={{textAlign:"center",color:"white",background:"#27303A",borderRadius:0}}>Choose a country</Modal.Header>
                                     {/*<Modal.Content image>*/}
                                         {/*<Image wrapped size='medium' src='https://react.semantic-ui.com/images/avatar/large/rachel.png' />*/}
                                         <Modal.Description>
 
-                                            <div style={{textAlign:"center",padding:"20px 0"}}>
+                                            <div style={{textAlign:"center",paddingBottom:"20px"}}>
                                                 <Dropdown  open search selection fluid  options={countryOptions} onChange={this.handleChange}  style={{width:"100%"}}/>
                                             </div>
                                         </Modal.Description>
                                 </Modal>
-                                </Grid.Column>
-                                {/*<div>*/}
-                                {/*    */}
-                                {/*    Services you would l*/}
-                                {/*</div>*/}
 
-                                {/*<Form.Checkbox label="Vs"/>*/}
                             </Form>
                             <Button circular color="facebook" style={{width:"50%",fontSize:"1.2em"}} onClick={this.RouteTONext}>Next</Button>
                         </Segment>

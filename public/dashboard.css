@@ -75,20 +75,20 @@
 
 .header-topmenu {
 
-    padding-top: 0px;
-    padding-bottom: 0px;
-    color: #DBE4EC !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    color: #DBE4EC !important ;
 }
 
 
-/*.notification-counter {*/
+.notification-counter {
 
-/*    margin-top: 4px !important;*/
-/*    padding: 4px;*/
-/*    margin-left: -23px !important;*/
+    margin-top: 4px !important;
+    padding: 4px;
+    margin-left: -23px !important;
 
 
-/*}*/
+}
 
 
 @media (max-width: 480px) {

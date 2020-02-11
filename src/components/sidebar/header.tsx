@@ -249,6 +249,7 @@ class Mobile extends Component<any>{
                                         >
                                             <Menu.Item>
                                                 <Icon name='dropdown' />
+
                                                 Organisations
 
                                             </Menu.Item>

@@ -32,6 +32,11 @@ import { Confirmpassword1 } from './components/signinproject/confirmpassword';
 import { Signotp } from './components/signinproject/signupotp';
 import { Dashboard } from './components/dashboard/dashboard';
 import { GSTINOTP } from './components/dashboard/GSTINOTP';
+import { OtpVerify } from './components/dashboard/OtpVerify';
+import { Header } from './components/dashboard/header';
+import { Sidebar } from './components/dashboard/sidebar';
+import { MobileHeader } from './components/dashboard/mobileHeader';
+import { Finalpage } from './components/dashboard/finalpage';
 // import ResponsiveLayout from "./components/sidebar/responsibe-semantic";
 // import {Dropdown} from "semantic-ui-react";
 
@@ -78,7 +83,7 @@ class App extends Component<any> {
                             <Route path="/drop" component={Dropdown}/>
                             <Route path="/icon" component={TopMenuIcon}/>
                             {/*<Route path="/res" component={ResponsiveLayout}/>*/}
-                            <Route path="/side" component={ResponsiveLayout}/>
+                            {/*<Route path="/side" component={ResponsiveLayout}/>*/}
                             {/*<Route path="/main" component={Mainpage}/>*/}
                             {/*<Transition.Group animation="drop">*/}
                                 <Route path="/login" render={(props) => <Loginin {...props} mobile/>}/>
@@ -89,6 +94,11 @@ class App extends Component<any> {
                                 <Route path="/signupotp" render={(props) => <Signotp {...props} mobile/>}/>
                                 <Route path="/dash" render={(props) => <Dashboard {...props} mobile/>}/>
                                 <Route path="/gst" render={(props) => <GSTINOTP />}/>
+                                <Route path="/gstotp" render={(props) => <OtpVerify />}/>
+                                <Route path="/head" render={(props) => <Header />}/>
+                                <Route path="/side" render={(props) => <Sidebar />}/>
+                                <Route path="/mobile" render={(props) => <MobileHeader />}/>
+                                <Route path="/page" render={(props) => <Finalpage />}/>
                             {/*</Transition.Group>*/}
 
 

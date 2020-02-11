@@ -2,43 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f27e549-e460-4257-9f80-5e3914710a92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/main_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vayana-partner-with-us.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vayana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/confirmactionsreducers.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/des.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/designX.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/forgetpassword.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/forgotpasswordactionreducers.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/main_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/otp.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/res.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/responsive.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/sem.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/semantic-res.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/forgorpassword/swoosh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/seamantic-homepage/homepage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sidebar/header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sidebar/side-tag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/sidebar/vayana.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/signinproject/confirmpassword.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/signinproject/forgotpassword.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/signinproject/mainpage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/signinproject/otpforpassword.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/signinproject/signup.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/signinproject/signupotp.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dashboard/header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dashboard/utils.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dashboard/GSTINOTP.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/GSTINOTP.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dashboard/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/dashboard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/dashboard/dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/dashboard/dashboard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/signup/actionReduser.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/signup/actionReduser.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/rootReducers.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/rootReducers.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sidebar/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/header.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,18 +64,19 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/src/components/sidebar" />
-      <recent name="$PROJECT_DIR$/src/components/forgorpassword" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/dashboard" />
       <recent name="$PROJECT_DIR$/src/components/sidebar" />
       <recent name="$PROJECT_DIR$/src/components/signup" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/components/sidebar" />
+      <recent name="$PROJECT_DIR$/src/components/forgorpassword" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.responsive.html">
@@ -213,6 +186,60 @@
       <workItem from="1581142439215" duration="1888000" />
       <workItem from="1581144344549" duration="1754000" />
       <workItem from="1581146183342" duration="1793000" />
+      <workItem from="1581147996244" duration="1368000" />
+      <workItem from="1581149815843" duration="855000" />
+      <workItem from="1581150812374" duration="599000" />
+      <workItem from="1581153563030" duration="2154000" />
+      <workItem from="1581156265354" duration="1797000" />
+      <workItem from="1581158078751" duration="1790000" />
+      <workItem from="1581159885929" duration="1794000" />
+      <workItem from="1581161696926" duration="1811000" />
+      <workItem from="1581163522160" duration="1346000" />
+      <workItem from="1581165768873" duration="1793000" />
+      <workItem from="1581167577717" duration="1153000" />
+      <workItem from="1581169395321" duration="599000" />
+      <workItem from="1581171209069" duration="599000" />
+      <workItem from="1581231901712" duration="1082000" />
+      <workItem from="1581235994369" duration="1798000" />
+      <workItem from="1581237810899" duration="599000" />
+      <workItem from="1581239955282" duration="1793000" />
+      <workItem from="1581241765770" duration="1792000" />
+      <workItem from="1581243575515" duration="1247000" />
+      <workItem from="1581245404566" duration="1815000" />
+      <workItem from="1581247240877" duration="1671000" />
+      <workItem from="1581250015303" duration="1804000" />
+      <workItem from="1581251841148" duration="1766000" />
+      <workItem from="1581253647505" duration="1794000" />
+      <workItem from="1581255461652" duration="1082000" />
+      <workItem from="1581312230836" duration="1214000" />
+      <workItem from="1581314075857" duration="1797000" />
+      <workItem from="1581315889489" duration="1791000" />
+      <workItem from="1581317696208" duration="1793000" />
+      <workItem from="1581319507655" duration="897000" />
+      <workItem from="1581323210839" duration="1116000" />
+      <workItem from="1581330549634" duration="1793000" />
+      <workItem from="1581332358894" duration="1824000" />
+      <workItem from="1581334209220" duration="1794000" />
+      <workItem from="1581336021178" duration="983000" />
+      <workItem from="1581337831389" duration="1792000" />
+      <workItem from="1581339639622" duration="1796000" />
+      <workItem from="1581396841676" duration="686000" />
+      <workItem from="1581398653454" duration="1794000" />
+      <workItem from="1581400469819" duration="1796000" />
+      <workItem from="1581402282339" duration="1791000" />
+      <workItem from="1581404088680" duration="1940000" />
+      <workItem from="1581407649962" duration="1796000" />
+      <workItem from="1581409497657" duration="1792000" />
+      <workItem from="1581411314596" duration="1339000" />
+      <workItem from="1581413130339" duration="1972000" />
+      <workItem from="1581415705094" duration="1825000" />
+      <workItem from="1581417576856" duration="1776000" />
+      <workItem from="1581419370865" duration="1364000" />
+      <workItem from="1581422299119" duration="761000" />
+      <workItem from="1581424108428" duration="1184000" />
+      <workItem from="1581425915956" duration="1792000" />
+      <workItem from="1581427725286" duration="1792000" />
+      <workItem from="1581429534014" duration="1794000" />
     </task>
     <servers />
   </component>
@@ -248,24 +275,29 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="302" y="95" width="819" height="602" key="NewModule_or_Project.wizard/67.27.1299.741@67.27.1299.741" timestamp="1579697408782" />
-    <state x="67" y="27" width="869" height="741" key="find.popup" timestamp="1579173532659">
-      <screen x="67" y="27" width="1299" height="741" />
+    <state x="159" y="185" key="SettingsEditor" timestamp="1581407792137">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
+    <state x="159" y="185" key="SettingsEditor/1920.0.1366.768/0.27.1920.1053@0.27.1920.1053" timestamp="1581407792137" />
+    <state x="0" y="27" width="1285" height="1053" key="find.popup" timestamp="1581255153726">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="0" y="27" width="1285" height="1053" key="find.popup/1920.0.1366.768/0.27.1920.1053@0.27.1920.1053" timestamp="1581255153726" />
     <state x="67" y="27" width="869" height="741" key="find.popup/67.27.1299.741@67.27.1299.741" timestamp="1579173532659" />
     <state x="209" y="27" width="501" height="738" key="refactoring.ChangeSignatureDialog" timestamp="1579170585601">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="209" y="27" width="501" height="738" key="refactoring.ChangeSignatureDialog/67.27.1299.741@67.27.1299.741" timestamp="1579170585601" />
-    <state x="92" y="237" key="run.anything.popup" timestamp="1581138015254">
+    <state x="92" y="237" key="run.anything.popup" timestamp="1581242681375">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="157" y="237" width="672" height="677" key="run.anything.popup/0.27.3286.1053@0.27.3286.1053" timestamp="1581053988844" />
-    <state x="92" y="237" key="run.anything.popup/1920.0.1366.768/0.27.1920.1053@0.27.1920.1053" timestamp="1581138015254" />
+    <state x="92" y="237" key="run.anything.popup/1920.0.1366.768/0.27.1920.1053@0.27.1920.1053" timestamp="1581242681375" />
     <state x="129" y="175" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1580459839818" />
-    <state x="-18" y="115" width="994" height="964" key="search.everywhere.popup" timestamp="1581079960522">
+    <state x="-18" y="115" width="994" height="964" key="search.everywhere.popup" timestamp="1581408931502">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="-18" y="115" width="994" height="964" key="search.everywhere.popup/1920.0.1366.768/0.27.1920.1053@0.27.1920.1053" timestamp="1581079960522" />
+    <state x="-18" y="115" width="994" height="964" key="search.everywhere.popup/1920.0.1366.768/0.27.1920.1053@0.27.1920.1053" timestamp="1581408931502" />
     <state x="55" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1580124671690" />
   </component>
   <component name="XDebuggerManager">
